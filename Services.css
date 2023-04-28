@@ -1356,20 +1356,22 @@
 }
 
 .u-section-7 .u-sheet-1 {
-  min-height: 1925px;
+  min-height: 1219px;
 }
 
 .u-section-7 .u-text-1 {
-  margin: 60px 102px 0;
+  margin: 103px 0 0;
 }
 
 .u-section-7 .u-list-1 {
-  margin: 81px 0 60px;
+  margin-top: 103px;
+  margin-bottom: 60px;
+  width: 100%;
 }
 
 .u-section-7 .u-repeater-1 {
   grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
-  min-height: 1610px;
+  min-height: 678px;
   grid-gap: 20px 20px;
 }
 
@@ -1404,7 +1406,7 @@
   letter-spacing: 1px;
   background-image: none;
   margin: 31px auto 0 0;
-  padding: 17px 31px 17px 29px;
+  padding: 16px 30px;
 }
 
 .u-section-7 .u-list-item-2 {
@@ -1438,7 +1440,7 @@
   letter-spacing: 1px;
   background-image: none;
   margin: 31px auto 0 0;
-  padding: 17px 31px 17px 29px;
+  padding: 16px 30px;
 }
 
 .u-section-7 .u-list-item-3 {
@@ -1472,7 +1474,7 @@
   letter-spacing: 1px;
   background-image: none;
   margin: 31px auto 0 0;
-  padding: 17px 31px 17px 29px;
+  padding: 16px 30px;
 }
 
 .u-section-7 .u-list-item-4 {
@@ -1506,7 +1508,7 @@
   letter-spacing: 1px;
   background-image: none;
   margin: 31px auto 0 0;
-  padding: 17px 31px 17px 29px;
+  padding: 16px 30px;
 }
 
 .u-section-7 .u-list-item-5 {
@@ -1540,42 +1542,38 @@
   letter-spacing: 1px;
   background-image: none;
   margin: 31px auto 0 0;
-  padding: 17px 31px 17px 29px;
+  padding: 16px 30px;
+}
+
+.u-section-7 .u-gallery-nav-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.u-section-7 .u-gallery-nav-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-7 .u-sheet-1 {
-    min-height: 861px;
-  }
-
   .u-section-7 .u-text-1 {
     width: auto;
     margin-left: 2px;
     margin-right: 2px;
-  }
-
-  .u-section-7 .u-list-1 {
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-7 .u-repeater-1 {
-    min-height: 1316px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-7 .u-repeater-1 {
     grid-template-columns: calc(50% - 10px) calc(50% - 10px);
-    min-height: 3133px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-7 .u-text-1 {
-    margin-top: 70px;
-  }
-
   .u-section-7 .u-repeater-1 {
     grid-template-columns: 100%;
   }
@@ -1603,14 +1601,6 @@
   .u-section-7 .u-container-layout-5 {
     padding-left: 10px;
     padding-right: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-7 .u-list-1 {
-    margin-top: 109px;
-    margin-right: initial;
-    margin-left: initial;
   }
 }.u-section-8 .u-sheet-1 {
   min-height: 744px;
