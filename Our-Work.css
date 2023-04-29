@@ -261,7 +261,6 @@
   grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
   min-height: 205px;
   grid-gap: 10px 10px;
-  grid-auto-columns: calc(33.3333% - 6.66667px);
 }
 
 .u-section-3 .u-list-item-1 {
@@ -335,9 +334,7 @@
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
     min-height: 168px;
-    grid-auto-columns: calc(33.333333333333336% - 6.66667px);
   }
 
   .u-section-3 .u-text-1 {
@@ -375,9 +372,8 @@
   }
 
   .u-section-3 .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 5.0000025px));
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 399px;
-    grid-auto-columns: calc(50% - 5.0000025px);
   }
 }
 
@@ -392,7 +388,6 @@
 
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: calc(100% - 0px);
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -408,12 +403,6 @@
   .u-section-3 .u-container-layout-3 {
     padding-right: 10px;
     padding-left: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-3 .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 }.u-section-4 .u-sheet-1 {
   min-height: 400px;
@@ -1181,22 +1170,21 @@
 }
 
 .u-section-6 .u-sheet-1 {
-  min-height: 866px;
+  min-height: 419px;
 }
 
 .u-section-6 .u-list-1 {
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .u-section-6 .u-repeater-1 {
-  grid-template-columns: repeat(3, calc(33.3333% - 19.3333px));
-  min-height: 706px;
-  grid-gap: 29px;
+  grid-template-columns: calc(50% - 14.5px) calc(50% - 14.5px);
+  min-height: 339px;
+  grid-gap: 29px 29px;
 }
 
-.u-section-6 .u-image-1 {
-  background-image: url("images/fashionable-young-redhead-woman-with-braid-tattoo-shoulder-having-rest-indoors.jpg");
+.u-section-6 .u-video-1 {
   background-position: 22.13% 50%;
 }
 
@@ -1204,8 +1192,15 @@
   padding: 10px;
 }
 
-.u-section-6 .u-image-2 {
-  background-image: url("images/content-configuration-creativity-digital-media.jpg");
+.u-section-6 .embed-responsive-1 {
+  position: absolute;
+  width: 178%;
+  left: -39%;
+  height: 178%;
+  top: -39%;
+}
+
+.u-section-6 .u-video-2 {
   background-position: 50% 50%;
 }
 
@@ -1213,49 +1208,22 @@
   padding: 10px;
 }
 
-.u-section-6 .u-image-3 {
-  background-image: url("images/pexels-fauxels-3182765.jpg");
-  background-position: 50% 50%;
-}
-
-.u-section-6 .u-container-layout-3 {
-  padding: 10px;
-}
-
-.u-section-6 .u-image-4 {
-  background-image: url("images/hand-holding-mobile-with-calendar-notification-alert-chat-speech-bubble-notice-reminder-3d-cartoon-illustration.jpg");
-  background-position: 50% 50%;
-}
-
-.u-section-6 .u-container-layout-4 {
-  padding: 10px;
-}
-
-.u-section-6 .u-image-5 {
-  background-image: url("images/es-chin-gently-laughs-happily-enjoys-day-off-feels-happy-enthusiastic-hears-something-positive-wears-casual-blue-turtleneck.jpg");
-  background-position: 50% 50%;
-}
-
-.u-section-6 .u-container-layout-5 {
-  padding: 10px;
-}
-
-.u-section-6 .u-image-6 {
-  background-image: url("images/pexels-photo-3761521.jpeg");
-  background-position: 50% 50%;
-}
-
-.u-section-6 .u-container-layout-6 {
-  padding: 10px;
+.u-section-6 .embed-responsive-2 {
+  position: absolute;
+  width: 178%;
+  left: -39%;
+  height: 178%;
+  top: -39%;
 }
 
 @media (max-width: 1199px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 714px;
+    min-height: 345px;
   }
 
   .u-section-6 .u-repeater-1 {
-    min-height: 581px;
+    grid-template-columns: calc(33.3333% - 19.3333px) calc(33.3333% - 19.3333px) calc(33.3333% - 19.3333px);
+    min-height: 278px;
   }
 }
 
@@ -1265,29 +1233,27 @@
   }
 
   .u-section-6 .u-sheet-1 {
-    min-height: 547px;
+    min-height: 264px;
   }
 
   .u-section-6 .u-repeater-1 {
-    min-height: 1031px;
-    grid-template-columns: repeat(2, calc(50% - 14.5px));
+    grid-template-columns: calc(50% - 14.5px) calc(50% - 14.5px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 2099px;
+    min-height: 198px;
   }
 
   .u-section-6 .u-repeater-1 {
-    min-height: 2185px;
     grid-template-columns: 100%;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 1322px;
+    min-height: 125px;
   }
 } .u-section-7 {
   background-image: url("images/45.jpg");
