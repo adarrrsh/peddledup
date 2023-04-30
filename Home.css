@@ -1,4 +1,4 @@
- .u-section-1 {
+.u-section-1 {
   background-image: url("images/Untitled-3copy.jpg");
   background-position: 50% 50%;
 }
@@ -1142,7 +1142,7 @@
   min-height: 229px;
   background-image: none;
   height: auto;
-  margin: 77px 0 0 auto;
+  margin: 0 0 0 auto;
 }
 
 .u-section-7 .u-container-layout-2 {
@@ -1151,22 +1151,22 @@
 
 .u-section-7 .u-text-2 {
   font-family: Manrope;
-  margin: 40px 30px 0 70px;
+  margin: 42px 30px 0 70px;
 }
 
 .u-section-7 .u-text-3 {
   font-weight: 400;
   font-family: Manrope;
-  margin: 20px 30px 0 70px;
+  margin: 18px 30px 0 70px;
 }
 
 .u-section-7 .u-image-1 {
   width: 141px;
   height: 141px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
-  background-image: url("images/handsome-confident-smiling-man-with-hands-crossed-chest.jpg");
+  background-image: url("images/logo_acadbuddy.png");
   background-position: 50% 50%;
-  margin: -267px auto 0 0;
+  margin: -374px auto 195px 0;
 }
 
 .u-section-7 .u-container-layout-3 {
@@ -1178,7 +1178,7 @@
   min-height: 229px;
   background-image: none;
   height: auto;
-  margin: 77px 0 0 auto;
+  margin: 0 0 0 auto;
 }
 
 .u-section-7 .u-container-layout-4 {
@@ -1187,22 +1187,22 @@
 
 .u-section-7 .u-text-4 {
   font-family: Manrope;
-  margin: 40px 30px 0 70px;
+  margin: 42px 30px 0 70px;
 }
 
 .u-section-7 .u-text-5 {
   font-weight: 400;
   font-family: Manrope;
-  margin: 20px 30px 0 70px;
+  margin: 18px 30px 0 70px;
 }
 
 .u-section-7 .u-image-2 {
   width: 141px;
   height: 141px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
-  background-image: url("images/pexels-photo-1181686.jpeg");
+  background-image: url("images/logo_avip.jpeg");
   background-position: 50% 50%;
-  margin: -267px auto 0 0;
+  margin: -374px auto 195px 0;
 }
 
 @media (max-width: 1199px) {
