@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: none;
+  margin-bottom: 10px;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -30,6 +31,7 @@
 @media (max-width: 575px) {
   .u-section-1 .u-text-2 {
     width: 340px;
+    
   }
 } .u-section-2 {
   background-image: none;
